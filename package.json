@@ -3,6 +3,7 @@
   "displayName": "Node.js Runner",
   "description": "Run Node.js scripts directly from the editor",
   "version": "0.0.1",
+  "publisher": "IvanShcherbakov",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -54,5 +55,6 @@
     "type": "git",
     "url": "https://github.com/heroivaan/vscode-nodejs-runner.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "icon": "images/logo.png"
 }
