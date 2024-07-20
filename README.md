@@ -1,6 +1,6 @@
 # VSCode Node.js Runner
 
-A VS Code extension to run Node.js scripts directly from the editor.
+A VS Code extension to run Node.js scripts with just one button.
 
 ## Features
 
@@ -14,7 +14,7 @@ A VS Code extension to run Node.js scripts directly from the editor.
 2. Go to the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X` or `Cmd+Shift+X`.
 3. Search for "Node.js Runner" and click Install.
 
-Alternatively, you can install it from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/vscode).
+Alternatively, you can install it from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=IvanShcherbakov.vscode-nodejs-runner&ssr=false#qna).
 
 ## Usage
 
