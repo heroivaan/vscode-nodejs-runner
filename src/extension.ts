@@ -14,7 +14,7 @@ export function activate(context: vscode.ExtensionContext) {
                 terminal.dispose();
             }
 
-            terminal = vscode.window.createTerminal(`Node.js: ${filePath}`);
+            terminal = vscode.window.createTerminal(`Node.js: Server`);
             terminal.show();
             terminal.sendText(`node ${fileName}`);
         } else {
