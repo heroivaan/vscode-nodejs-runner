@@ -1,9 +1,19 @@
 # Changelog
 
+## [1.0.2] - 2024-07-31
+### Added
+- Updated logo.png.
+- Terminal reuse: Reuses the same terminal if it exists.
+- Terminal name changed to 'node'.
+- Terminal close event listener for proper resource management.
+
+### Changed
+- Updated the logic to use file path for terminal command.
+
 ## [1.0.1] - 2024-07-31
 ### Added
 - File name extraction for better understanding and readability in terminal output.
-- Now the terminal command writes `node index.js` instead of the full file path.
+- Now the terminal command writes `node index.js` instead of the full file path `node`.
 
 ### Changed
 - Updated terminal title in the `activate` function for better clarity.

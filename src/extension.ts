@@ -1,5 +1,4 @@
 import * as vscode from 'vscode';
-import * as path from 'path';
 
 let terminal: vscode.Terminal | undefined;
 
@@ -8,15 +7,21 @@ export function activate(context: vscode.ExtensionContext) {
         const editor = vscode.window.activeTextEditor;
         if (editor) {
             const document = editor.document;
-            const fileName = path.basename(document.fileName); // Get only the file name
+            const filePath = document.fileName;
 
-            if (terminal) {
-                terminal.dispose();
+            if (!terminal) {
+                terminal = vscode.window.createTerminal('node');
+                terminal.show();
+
+                vscode.window.onDidCloseTerminal((closedTerminal) => {
+                    if (closedTerminal === terminal) {
+                        terminal = undefined;
+                    }
+                });
             }
 
-            terminal = vscode.window.createTerminal(`Node.js: Server`);
             terminal.show();
-            terminal.sendText(`node ${fileName}`);
+            terminal.sendText(`node "${filePath}"`);
         } else {
             vscode.window.showErrorMessage('No active editor found');
         }

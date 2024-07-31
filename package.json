@@ -2,7 +2,7 @@
   "name": "vscode-nodejs-runner",
   "displayName": "Node.js Runner",
   "description": "Run Node.js scripts with just one button",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "IvanShcherbakov",
   "engines": {
     "vscode": "^1.60.0"
@@ -21,6 +21,11 @@
         "command": "extension.runNodeScript",
         "title": "Run Node.js Script",
         "icon": "$(play)"
+      },
+      {
+        "command": "extension.support",
+        "title": "Support",
+        "category": "Help"
       }
     ],
     "menus": {
@@ -29,6 +34,13 @@
           "when": "resourceLangId == javascript || resourceLangId == typescript",
           "command": "extension.runNodeScript",
           "group": "navigation"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "extension.support",
+          "when": "true",
+          "group": "help"
         }
       ]
     }
@@ -56,5 +68,10 @@
     "url": "https://github.com/heroivaan/vscode-nodejs-runner.git"
   },
   "license": "MIT",
-  "icon": "images/logo.png"
+  "icon": "images/logo.png",
+  "sponsors": [
+    {
+      "url": "https://www.paypal.com/donate/?hosted_button_id=EHGAJ7E9C4CK4"
+    }
+  ]
 }
