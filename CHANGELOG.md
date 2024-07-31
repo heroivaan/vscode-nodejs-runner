@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.3] - 2024-07-31
+### Added
+- Added a sponsor button in the extension heading for user support.
+
 ## [1.0.2] - 2024-07-31
 ### Added
 - Updated logo.png.
