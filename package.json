@@ -69,9 +69,7 @@
   },
   "license": "MIT",
   "icon": "images/logo.png",
-  "sponsors": [
-    {
-      "url": "https://www.paypal.com/donate/?hosted_button_id=EHGAJ7E9C4CK4"
-    }
-  ]
+  "sponsor": {
+    "url": "https://www.paypal.com/donate/?hosted_button_id=EHGAJ7E9C4CK4"
+  }
 }
