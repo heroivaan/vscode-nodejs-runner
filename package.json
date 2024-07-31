@@ -2,7 +2,7 @@
   "name": "vscode-nodejs-runner",
   "displayName": "Node.js Runner",
   "description": "Run Node.js scripts with just one button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "IvanShcherbakov",
   "engines": {
     "vscode": "^1.60.0"
