@@ -11,6 +11,9 @@
     "Other"
   ],
   "main": "./out/extension.js",
+  "activationEvents": [
+    "onCommand:extension.runNodeScript"
+  ],
   "contributes": {
     "commands": [
       {
