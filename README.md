@@ -3,10 +3,20 @@
 A VS Code extension to run Node.js scripts with just one button.
 
 ## Features
+- **One-Click Execution**: Easily run your Node.js scripts directly from VS Code.
+- **Context Menu Integration**: Right-click on a `.js` file and select "Run Node.js Script."
 
-- Run the currently active Node.js script by clicking a button.
-- View the script output in the VS Code terminal.
-- Stop the script by closing the terminal.
+### Before Installing the Extension
+
+Here’s how your context menu looks before you install the Node.js Runner extension:
+
+![Before Installation](images/before-install.png)
+
+### After Installing the Extension
+
+After installing the Node.js Runner extension, the "Run Node.js Script" option is added to your context menu:
+
+![After Installation](images/after-install.png)
 
 ## Installation
 
