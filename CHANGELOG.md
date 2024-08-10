@@ -1,8 +1,14 @@
 # Changelog
 
-## [1.0.3] - 2024-07-31
+## [1.0.4] - 2024-08-10
 ### Added
-- Added a sponsor button in the extension heading for user support.
+- **Context Menu Integration**: You can now right-click on a `.js` file in the Explorer and select "Run Node.js Script" to run the file directly in the terminal.
+- The "Run Node.js Script" option is now located at the bottom of the context menu.
+
+![Context Menu with Run Node.js Script](images/context-menu.png)
+
+### Changed
+- The extension now positions the "Run Node.js Script" command at the bottom of the context menu in a custom group.
 
 ## [1.0.2] - 2024-07-31
 ### Added
